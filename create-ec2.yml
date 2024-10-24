@@ -13,7 +13,6 @@
     group: webserver
     region: eu-west-2
     security_group: security_group
-    ansible_python_interpreter: auto_silent
 
   tasks:
   - name: configuring security group for the instance
